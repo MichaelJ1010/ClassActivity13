@@ -12,6 +12,15 @@ int main(){
 
     cin >> numberOfTemperatures;
     int temperatures[numberOfTemperatures];
+
+    for(int i = 0; i < numberOfTemperatures; i++){
+    cout << "Please give a temperature." << endl;
     
+    cin >> temperature;
+    temperatures[i] = temperature;
+    totalTemperature += temperature;
+
+    }
+
     return 0;
 }
