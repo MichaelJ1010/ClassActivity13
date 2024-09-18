@@ -22,5 +22,7 @@ int main(){
 
     }
 
+    cout << "Average temp is: " << fixed << setprecision(1) << totalTemperature / numberOfTemperatures << " degrees";
+
     return 0;
 }
